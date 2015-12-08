@@ -143,8 +143,7 @@ img {
 /* /base styles */
 /* wraps styling*/
 .mbox {
-  max-width: 980px;
-  width: 100%;
+  width: 980px;
   margin: 0 auto;
   position: relative;
   z-index: 1;
