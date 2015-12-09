@@ -1,6 +1,6 @@
 /* button */
 
-.button{cursor: pointer;display: inline-block;max-width: 320px;width: 100%;padding: 0 5px;text-decoration: none;height: 50px;line-height: 52px;font-size: 16px;color:#4c4c4c;font-weight: 600;text-shadow:1px 1px 1px rgba(191, 152, 13, .78);background-color: #f5c314;border-radius: 4px;text-transform: uppercase;transition:background-color 300ms ease, color 300ms ease;box-shadow:0 3px 5px 0 rgba(72, 57, 3, .35);
+.button{cursor: pointer;display: inline-block;max-width: 320px;width: 100%;padding: 0 5px;text-decoration: none;height: 50px;line-height: 52px;font-size: 16px;color:#4c4c4c;font-weight: 600;text-shadow:1px 1px 1px rgba(191, 152, 13, .78);background-color: #f5c314;border-radius: 4px;text-transform: uppercase;transition:background-color 300ms ease, color 300ms ease;box-shadow:0 3px 5px 0 rgba(72, 57, 3, .35);text-align: center;
     &:hover{background-color:#ffd036;}
     &:active{background-color: #ecaf00;color:#fff;}
 }
@@ -9,7 +9,7 @@
 
 /* section-1 */
 
-.section-1{background-image:url(../images/section-1-bg.jpg);background-position: center top;padding-top: 80px;}
+.section-1{background-image:url(../images/section-1-bg.jpg);background-position: center top;padding: 80px 0 60px 0;}
 .section-1-top{text-align: center;position: relative;margin-bottom: 40px;}
 .top-logo{display: inline-block;}
 .top-award{position: absolute;top:0;left:10px;}
@@ -20,5 +20,12 @@
 }
 .section-1-description{margin-bottom: 40px;}
 .section-1-description-wrap{display: inline-block;max-width: 610px;width: 100%;padding: 10px 15px 10px 15px;border:1px solid #f5c314;font-weight: 700;font-size: 22px;color:#fff;}
+.section-1-button{margin-bottom: 40px;}
+.section-1-learn-more-wrap{display: inline-block;font-size: 16px;font-weight: 700;color:#fff;text-transform: uppercase;position: relative;}
+.section-1-learn-more-arrow{position: absolute;width: 80px;top: calc(100% + 20px);left: calc(50% - 40px);
+    &:before, &:after{content: '';display: block;position: absolute;width: 45px;height: 2px;background-color: #fff;transform-origin:50% 50%;}
+    &:before{left:calc(50% - 45px);transform:rotateZ(45deg);}
+    &:after{left:calc(50% - 14px);transform:rotateZ(-45deg);}
+}
 
 /* /section-1 */
