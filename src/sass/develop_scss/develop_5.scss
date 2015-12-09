@@ -1,0 +1,59 @@
+/*popups*/
+    .call_success{font-family: 'Lato'; font-weight: 600; font-size: 46px; color:#2c2c2c; text-align: center; border-radius: 5px; border:2px solid #50d249; width:100%; max-width: 719px; padding: 120px 51px; text-transform: uppercase;
+        .call-title{padding-bottom: 12px;}
+        .call-subtitle{font-size: 22px;}
+    }
+    .call_success2{font-family: 'Lato'; font-weight: 600; font-size: 22px; color:#2c2c2c; text-align: center; border-radius: 5px; border:2px solid #50d249; width:100%; max-width: 723px; padding: 67px 100px 39px; text-transform: uppercase;
+        .call-title{padding-bottom: 26px;
+            p{
+                &:nth-child(4){font-weight: 700; font-size: 18px; color: #50d249;     padding-top: 54px; position: relative;
+                    &:before{content:'';display: block;position: absolute; width: 113px; height: 9px; border-top:1px solid #f5c314;border-bottom:1px solid #f5c314; top: 16px; left:calc(50% - 58px);}
+                }
+                &:nth-child(5),
+                &:nth-child(6){font-weight: 400; font-size: 18px; text-transform: none; white-space: nowrap;}
+            }
+        }
+        .call-icons{
+            .fb,
+            .vk{width: 53px; height: 53px; border-radius: 5px; border:1px solid #000; font-weight: 700; font-size: 42px; text-align: center; display: inline-block; vertical-align: top; text-transform: none;padding-top: 3px;
+}
+            .vk{    margin-left: 30px;}
+        }
+
+    }
+    .fancybox-close {background-image: none; background-color: #50d249; border-radius: 50%; width:36px; height: 36px;top: -60px; right: -57px;
+        &:before{content: ''; display: block;position: absolute; width:27px; height: 1px; background-color: #fff; top:17px; left:5px; transform:rotate(45deg); transition:all 500ms; }
+        &:after{content: ''; display: block;position: absolute; width:27px; height: 1px; background-color: #fff; top:17px; left:5px; transform:rotate(-45deg); transition:all 500ms; }
+        &:hover{
+            &:before{transform:rotate(405deg); }
+            &:after{transform:rotate(315deg); }
+        }
+    }
+
+    #call-popup{font-family: 'Lato'; font-weight: 600; font-size: 22px; color:#2c2c2c; text-align: center; border-radius: 5px; border:2px solid #50d249;  max-width: 785px; padding: 43px 60px 43px 48px; text-transform: uppercase;
+        .contact-form-title{position: relative;     padding-bottom: 85px;
+            &:before{content:'';display: block;position: absolute; width: 113px; height: 9px; border-top:1px solid #f5c314;border-bottom:1px solid #f5c314; bottom: 40px; left:calc(50% - 52px);}
+        }
+        .contact-form-row{ width:100%; padding-bottom: 20px;
+            .contact-form-item{float:left;
+                input{width:320px; height: 50px; border-radius: 5px; border: 1px solid #000;    padding-left: 40px;
+                    &::-webkit-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &:-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &::-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &:-ms-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                }
+                textarea{    width: 660px;    height: 233px; border-radius: 5px; border: 1px solid #000; padding-left: 39px; padding-top: 18px;
+                    &::-webkit-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &:-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &::-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                    &:-ms-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                }
+                &:nth-child(2){margin-left: 20px;}
+            }
+            .contact-submit{
+                &:active{border:0;}
+            }
+        }
+    }
+
+/*END popups*/

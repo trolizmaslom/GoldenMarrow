@@ -5046,10 +5046,51 @@ function validationCall(form){
             $('form').trigger("reset");
             $.fancybox.close("#call_success");
         },2000);
-
-
     }
 }
+function validationCall2(form){
+
+  var thisForm = $(form);
+  var formSur = thisForm.serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim() == 'true') {
+                thisForm.trigger("reset");
+                popNext();
+            }
+            else {
+               thisForm.trigger('reset');
+            }
+
+        }
+    });
+
+    function popNext(){
+        $.fancybox.open("#call_success2",{
+            padding:0,
+            fitToView:false,
+            wrapCSS:"call-popup2",
+            autoSize:true,
+            afterClose: function(){
+                $('form').trigger("reset");
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $('form').trigger("reset");
+            $.fancybox.close("#call_success");
+        },2000);
+    }
+}
+$(document).ready(function() {
+
+});
 
 $(document).ready(function(){
 
@@ -5095,8 +5136,17 @@ $(window).load(function(){
 $(window).resize(function(){
 
 });
+function telMask(){
+    $('.tel-mask').mask('+9 (999) 999-99-99 ');
+}
 $(document).ready(function(){
-
+    telMask();
+     $('.fancybox').fancybox({
+            width:false,
+            padding:0
+     });
+    validate('.contact-form', {submitFunction:validationCall});
+    validate('.contact-form2', {submitFunction:validationCall2});
 });
 
 $(window).load(function(){
