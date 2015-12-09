@@ -5234,6 +5234,11 @@ $(window).resize(function(){
 
 });
 $(document).ready(function(){
+    $('.keys-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        arrow: true
+    });
 
 });
 
