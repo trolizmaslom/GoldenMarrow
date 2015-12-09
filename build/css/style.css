@@ -569,6 +569,22 @@ img {
     background-color: rgba(0, 0, 0, 0.7); }
 
 /* /header */
+/* footer */
+.footer-top {
+  background-image: url(../images/footer-background.jpg);
+  background-position: center top; }
+
+.footer-logo-wrap {
+  padding: 10px 0 10px 0; }
+
+.footer-bottom {
+  background-color: #191919;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #dddddd;
+  padding: 5px 0; }
+
+/* /footer */
 /* section-1 */
 .section-1 {
   background-image: url(../images/section-1-bg.jpg);
