@@ -4904,7 +4904,7 @@ function animationBlock(item){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-
+    animationBlock($('.animate-section'));
     oneHeightItems();
 });
 
