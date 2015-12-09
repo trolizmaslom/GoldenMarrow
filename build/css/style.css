@@ -477,6 +477,86 @@ img {
   display: none; }
 
 /* import develop files */
+.section-4-wrap {
+  color: #2c2c2c; }
+  .section-4-wrap .mbox {
+    padding: 0; }
+  .section-4-wrap .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 33px; }
+    .section-4-wrap .title h5 {
+      font-size: 46px; }
+    .section-4-wrap .title p {
+      font-size: 28px;
+      margin-top: -3px; }
+  .section-4-wrap .section-4-row {
+    position: relative;
+    margin-bottom: 21px; }
+    .section-4-wrap .section-4-row.reverse .section-4-left-item {
+      float: right; }
+    .section-4-wrap .section-4-row.reverse .section-4-right-item {
+      float: left; }
+    .section-4-wrap .section-4-row.reverse .section-4-text {
+      float: left; }
+    .section-4-wrap .section-4-row.row-1 .section-4-left-item {
+      padding-right: 25px;
+      width: 48%; }
+    .section-4-wrap .section-4-row.row-1 .section-4-text {
+      max-width: 419px;
+      padding-top: 12px; }
+    .section-4-wrap .section-4-row.row-2 .section-4-left-item {
+      padding-left: 46px; }
+      .section-4-wrap .section-4-row.row-2 .section-4-left-item:after {
+        right: auto;
+        left: 0;
+        bottom: -82px; }
+      .section-4-wrap .section-4-row.row-2 .section-4-left-item:before {
+        right: auto;
+        left: -9px;
+        bottom: -92px; }
+    .section-4-wrap .section-4-row.row-2 .section-4-text {
+      max-width: 419px;
+      padding-top: 31px; }
+    .section-4-wrap .section-4-row.row-3 .section-4-left-item {
+      padding-right: 25px; }
+      .section-4-wrap .section-4-row.row-3 .section-4-left-item:after {
+        bottom: -82px; }
+      .section-4-wrap .section-4-row.row-3 .section-4-left-item:before {
+        bottom: -92px; }
+    .section-4-wrap .section-4-row.row-3 .section-4-text {
+      max-width: 419px;
+      padding-top: 30px; }
+  .section-4-wrap .section-4-left-item {
+    float: left;
+    width: 48%;
+    position: relative; }
+    .section-4-wrap .section-4-left-item:after {
+      position: absolute;
+      bottom: -55px;
+      right: 0;
+      content: '';
+      background-color: #50d44a;
+      height: 1px;
+      width: 455px; }
+    .section-4-wrap .section-4-left-item:before {
+      position: absolute;
+      bottom: -65px;
+      right: -9px;
+      content: '';
+      background-color: #50d44a;
+      height: 1px;
+      width: 464px; }
+  .section-4-wrap .section-4-right-item {
+    float: left;
+    width: 52%; }
+  .section-4-wrap .section-4-text {
+    float: right;
+    font-size: 38px; }
+    .section-4-wrap .section-4-text span {
+      color: #f5c314; }
+
 /* /import develop files */
 /* import develop adaptation */
 /* /import develop adaptation */
