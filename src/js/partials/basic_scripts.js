@@ -84,8 +84,18 @@ function animationBlock(item){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
+
     animationBlock($('.animate-section'));
     oneHeightItems();
+
+    $('.footer_placeholder').height($('.footer').outerHeight());
+
+});
+
+$(window).load(function(){
+
+  $('.footer_placeholder').height($('.footer').outerHeight());
+
 });
 
 $(window).resize(function() {
