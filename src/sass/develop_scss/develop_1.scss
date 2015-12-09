@@ -1,0 +1,24 @@
+/* button */
+
+.button{cursor: pointer;display: inline-block;max-width: 320px;width: 100%;padding: 0 5px;text-decoration: none;height: 50px;line-height: 52px;font-size: 16px;color:#4c4c4c;font-weight: 600;text-shadow:1px 1px 1px rgba(191, 152, 13, .78);background-color: #f5c314;border-radius: 4px;text-transform: uppercase;transition:background-color 300ms ease, color 300ms ease;box-shadow:0 3px 5px 0 rgba(72, 57, 3, .35);
+    &:hover{background-color:#ffd036;}
+    &:active{background-color: #ecaf00;color:#fff;}
+}
+
+/* /button */
+
+/* section-1 */
+
+.section-1{background-image:url(../images/section-1-bg.jpg);background-position: center top;padding-top: 80px;}
+.section-1-top{text-align: center;position: relative;margin-bottom: 40px;}
+.top-logo{display: inline-block;}
+.top-award{position: absolute;top:0;left:10px;}
+.section-1-main{text-align: center;}
+.section-1-title{margin-bottom: 40px;}
+.section-1-title-wrap{display: inline-block;max-width: 900px;width: 100%;background-color: #52d84b;color:#fff;font-size: 39px;text-transform: uppercase;padding: 10px 10px 5px 10px;
+    span{font-weight: 700;}
+}
+.section-1-description{margin-bottom: 40px;}
+.section-1-description-wrap{display: inline-block;max-width: 610px;width: 100%;padding: 10px 15px 10px 15px;border:1px solid #f5c314;font-weight: 700;font-size: 22px;color:#fff;}
+
+/* /section-1 */
