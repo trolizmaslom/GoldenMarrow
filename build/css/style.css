@@ -799,7 +799,21 @@ img {
       font-weight: 400;
       color: white;
       text-align: center;
-      padding-top: 42px; }
+      padding-top: 42px;
+      opacity: 0;
+      -webkit-transform: translate3d(0, -40%, 0);
+      -moz-transform: translate3d(0, -40%, 0);
+      transform: translate3d(0, -40%, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .about-title.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
     .about-us-wrap .about-us-box .about-subtext {
       width: 100%;
       text-transform: uppercase;
@@ -808,7 +822,21 @@ img {
       font-weight: 400;
       color: #fccb18;
       text-align: center;
-      padding-top: 25px; }
+      padding-top: 25px;
+      opacity: 0;
+      -webkit-transform: translate3d(-20%, 0, 0);
+      -moz-transform: translate3d(-20%, 0, 0);
+      transform: translate3d(-20%, 0, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .about-subtext.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
     .about-us-wrap .about-us-box .about-we-are {
       font-family: 'Lato', sans-serif;
       font-size: 18px;
@@ -817,7 +845,21 @@ img {
       text-align: center;
       max-width: 820px;
       margin: 0 auto;
-      padding-top: 14px; }
+      padding-top: 14px;
+      opacity: 0;
+      -webkit-transform: translate3d(20%, 0, 0);
+      -moz-transform: translate3d(20%, 0, 0);
+      transform: translate3d(20%, 0, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .about-we-are.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
       .about-us-wrap .about-us-box .about-we-are span {
         color: #fccb18; }
     .about-us-wrap .about-us-box .about-block-man {
@@ -825,7 +867,21 @@ img {
       padding-top: 32px; }
       .about-us-wrap .about-us-box .about-block-man .half-block {
         float: left;
-        width: 50%; }
+        width: 50%;
+        opacity: 0;
+        -webkit-transform: translate3d(-20%, 0, 0);
+        -moz-transform: translate3d(-20%, 0, 0);
+        transform: translate3d(-20%, 0, 0);
+        -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+        -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+        -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+        transition: transform 300ms ease, opacity 400ms ease; }
+        .about-us-wrap .about-us-box .about-block-man .half-block.animated {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0); }
         .about-us-wrap .about-us-box .about-block-man .half-block .image-head {
           max-width: 90px;
           float: left;
@@ -847,6 +903,21 @@ img {
           font-size: 18px;
           font-weight: 400;
           margin-left: 100px; }
+      .about-us-wrap .about-us-box .about-block-man .about-right {
+        opacity: 0;
+        -webkit-transform: translate3d(20%, 0, 0);
+        -moz-transform: translate3d(20%, 0, 0);
+        transform: translate3d(20%, 0, 0);
+        -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+        -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+        -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+        transition: transform 300ms ease, opacity 400ms ease; }
+        .about-us-wrap .about-us-box .about-block-man .about-right.animated {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+          -webkit-transform: translate3d(0, 0, 0);
+          -moz-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0); }
     .about-us-wrap .about-us-box .undertext-submarine {
       color: #dbb40f;
       font-family: 'Lato', sans-serif;
@@ -855,7 +926,21 @@ img {
       text-align: center;
       max-width: 690px;
       margin: 0 auto;
-      padding-top: 29px; }
+      padding-top: 29px;
+      opacity: 0;
+      -webkit-transform: translate3d(20%, 0, 0);
+      -moz-transform: translate3d(20%, 0, 0);
+      transform: translate3d(20%, 0, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .undertext-submarine.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
     .about-us-wrap .about-us-box .last-header-for-button {
       text-transform: uppercase;
       font-family: 'Lato', sans-serif;
@@ -863,12 +948,40 @@ img {
       font-weight: 400;
       color: white;
       padding-top: 29px;
-      text-align: center; }
+      text-align: center;
+      opacity: 0;
+      -webkit-transform: translate3d(-20%, 0, 0);
+      -moz-transform: translate3d(-20%, 0, 0);
+      transform: translate3d(-20%, 0, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .last-header-for-button.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
     .about-us-wrap .about-us-box .tipa-button {
       margin: 0 auto;
       text-align: center;
       padding-top: 33px;
-      padding-bottom: 47px; }
+      padding-bottom: 47px;
+      opacity: 0;
+      -webkit-transform: translate3d(0, 40%, 0);
+      -moz-transform: translate3d(0, 40%, 0);
+      transform: translate3d(0, 40%, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .about-us-wrap .about-us-box .tipa-button.animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
 
 .belive-wrap {
   width: 100%;
@@ -880,10 +993,38 @@ img {
     text-align: center;
     color: black;
     text-transform: uppercase;
-    padding-top: 66px; }
+    padding-top: 66px;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -40%, 0);
+    -moz-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+    -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+    -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+    -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+    transition: transform 300ms ease, opacity 400ms ease; }
+    .belive-wrap .belive-box .belive-title.animated {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0); }
   .belive-wrap .belive-box .belive-img .belive-row {
     padding-top: 16px;
-    padding-bottom: 3px; }
+    padding-bottom: 3px;
+    opacity: 0;
+    -webkit-transform: translate3d(-20%, 0, 0);
+    -moz-transform: translate3d(-20%, 0, 0);
+    transform: translate3d(-20%, 0, 0);
+    -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+    -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+    -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+    transition: transform 300ms ease, opacity 400ms ease; }
+    .belive-wrap .belive-box .belive-img .belive-row.animated {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0); }
     .belive-wrap .belive-box .belive-img .belive-row .cell-element {
       display: inline-block;
       margin-left: -5px;
@@ -894,6 +1035,21 @@ img {
       vertical-align: middle; }
     .belive-wrap .belive-box .belive-img .belive-row:first-child {
       margin-left: 0px; }
+    .belive-wrap .belive-box .belive-img .belive-row:nth-child(2) {
+      opacity: 0;
+      -webkit-transform: translate3d(20%, 0, 0);
+      -moz-transform: translate3d(20%, 0, 0);
+      transform: translate3d(20%, 0, 0);
+      -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+      -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+      -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+      transition: transform 300ms ease, opacity 400ms ease; }
+      .belive-wrap .belive-box .belive-img .belive-row:nth-child(2).animated {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0); }
   .belive-wrap .belive-box .undertext {
     margin: 0 auto;
     max-width: 620px;
@@ -903,11 +1059,39 @@ img {
     font-weight: 700;
     text-align: center;
     color: black;
-    padding-top: 40px; }
+    padding-top: 40px;
+    opacity: 0;
+    -webkit-transform: translate3d(20%, 0, 0);
+    -moz-transform: translate3d(20%, 0, 0);
+    transform: translate3d(20%, 0, 0);
+    -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+    -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+    -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+    transition: transform 300ms ease, opacity 400ms ease; }
+    .belive-wrap .belive-box .undertext.animated {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0); }
   .belive-wrap .belive-box .tipa-button {
     text-align: center;
     padding-top: 48px;
-    padding-bottom: 62px; }
+    padding-bottom: 62px;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -40%, 0);
+    -moz-transform: translate3d(0, -40%, 0);
+    transform: translate3d(0, -40%, 0);
+    -webkit-transition: -webkit-transform 300ms ease, opacity 400ms ease;
+    -moz-transition: -moz-transform 300ms ease, opacity 400ms ease;
+    -o-transition: -o-transform 300ms ease, opacity 400ms ease;
+    transition: transform 300ms ease, opacity 400ms ease; }
+    .belive-wrap .belive-box .tipa-button.animated {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0); }
 
 .section-4-wrap {
   color: #2c2c2c; }
