@@ -5065,9 +5065,30 @@ function scrollToSecondSection(){
 
 };
 
+function headerScroll(){
+
+    function headerClass(){
+        if($(window).scrollTop() != 0){
+            $('.header').addClass('scroll');
+        }
+        else{
+            $('.header').removeClass('scroll');
+        }
+    }
+
+    headerClass();
+    $(window).scroll(function(){
+
+        headerClass();
+
+    });
+
+};
+
 $(document).ready(function(){
 
     scrollToSecondSection();
+    headerScroll();
 
 });
 

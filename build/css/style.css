@@ -513,7 +513,55 @@ img {
 /* /button */
 /* header */
 .header {
-  position: fixed; }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0 8px 0;
+  background-color: transparent;
+  -webkit-transition: background-color 300ms ease;
+  -moz-transition: background-color 300ms ease;
+  -o-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  z-index: 3; }
+  .header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-image: url(../images/header-border.png); }
+  .header.scroll {
+    background-color: rgba(0, 0, 0, 0.7); }
+  .header .header-nav {
+    float: left;
+    max-width: 710px;
+    width: 100%;
+    padding-top: 7px; }
+    .header .header-nav ul {
+      display: table;
+      width: 100%; }
+      .header .header-nav ul li {
+        display: table-cell;
+        text-align: center; }
+        .header .header-nav ul li a {
+          font-size: 14px;
+          color: #fff;
+          text-decoration: none;
+          -webkit-transition: color 300ms ease;
+          -moz-transition: color 300ms ease;
+          -o-transition: color 300ms ease;
+          transition: color 300ms ease; }
+          .header .header-nav ul li a:hover {
+            color: #f5c314; }
+  .header .header-button {
+    float: right;
+    max-width: 176px;
+    width: 100%; }
+    .header .header-button .button {
+      height: 33px;
+      line-height: 34px; }
 
 /* /header */
 /* section-1 */
