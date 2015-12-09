@@ -511,6 +511,11 @@ img {
     color: #fff; }
 
 /* /button */
+/* header */
+.header {
+  position: fixed; }
+
+/* /header */
 /* section-1 */
 .section-1 {
   background-image: url(../images/section-1-bg.jpg);
