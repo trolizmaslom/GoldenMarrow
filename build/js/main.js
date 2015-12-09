@@ -4822,6 +4822,10 @@ void 0===c?d&&"get"in d&&null!==(e=d.get(a,b))?e:(e=n.find.attr(a,b),null==e?voi
 
 /* /plagins */
 
+(function(e,t,n){"use strict";var r,i;e.uaMatch=function(e){e=e.toLowerCase();var t=/(opr)[\/]([\w.]+)/.exec(e)||/(chrome)[ \/]([\w.]+)/.exec(e)||/(webkit)[ \/]([\w.]+)/.exec(e)||/(opera)(?:.*version|)[ \/]([\w.]+)/.exec(e)||/(msie) ([\w.]+)/.exec(e)||e.indexOf("trident")>=0&&/(rv)(?::| )([\w.]+)/.exec(e)||e.indexOf("compatible")<0&&/(mozilla)(?:.*? rv:([\w.]+)|)/.exec(e)||[];var n=/(ipad)/.exec(e)||/(iphone)/.exec(e)||/(android)/.exec(e)||/(win)/.exec(e)||/(mac)/.exec(e)||/(linux)/.exec(e)||[];return{browser:t[1]||"",version:t[2]||"0",platform:n[0]||""}};r=e.uaMatch(t.navigator.userAgent);i={};if(r.browser){i[r.browser]=true;i.version=r.version}if(r.platform){i[r.platform]=true}if(i.chrome||i.opr){i.webkit=true}else if(i.webkit){i.safari=true}if(i.rv){i.msie=true}if(i.opr){i.opera=true}e.browser=i})(jQuery,window)
+
+var scroller=jQuery.browser.webkit ? "body": "html";
+
 /* input only Number  */
 function inputNumber(block) {
     $('input', block).keypress(function(e) {
@@ -4904,8 +4908,18 @@ function animationBlock(item){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
+
     animationBlock($('.animate-section'));
     oneHeightItems();
+
+    $('.footer_placeholder').height($('.footer').outerHeight());
+
+});
+
+$(window).load(function(){
+
+  $('.footer_placeholder').height($('.footer').outerHeight());
+
 });
 
 $(window).resize(function() {
@@ -5051,7 +5065,40 @@ function validationCall(form){
     }
 }
 
+function scrollToSecondSection(){
+
+    var secondSection = $('.section-2').offset().top;
+
+    $('.section-1-learn-more-wrap').click(function(){
+        $(scroller).animate({scrollTop:secondSection}, 400);
+    });
+
+};
+
+function headerScroll(){
+
+    function headerClass(){
+        if($(window).scrollTop() != 0){
+            $('.header').addClass('scroll');
+        }
+        else{
+            $('.header').removeClass('scroll');
+        }
+    }
+
+    headerClass();
+    $(window).scroll(function(){
+
+        headerClass();
+
+    });
+
+};
+
 $(document).ready(function(){
+
+    scrollToSecondSection();
+    headerScroll();
 
 });
 
