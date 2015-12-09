@@ -2649,14 +2649,9 @@ $(window).resize(function(){
 });
 function sectionSlider(){
      setTimeout(function(){
-
             $('.item-slide:not(.slick-center) .item-slide-hidden').css('display','none');
-            console.log('init');
-        },1500);
-    $('.section-9-slider').on('init', function(event, slick, direction){
+        },300);
 
-
-    });
     $('.section-9-slider').on('beforeChange', function(){
         $('.item-slide-hidden').fadeOut(100);
     });
