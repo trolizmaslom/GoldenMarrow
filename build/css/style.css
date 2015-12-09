@@ -1332,6 +1332,7 @@ img {
     display: inline-block; }
 
 /*/section 4*/
+/*section 6*/
 .section-6 {
   color: #2c2c2c; }
   .section-6 .section-6-wrap {
@@ -1519,7 +1520,17 @@ img {
   .section-6 .button {
     display: inline-block; }
 
-/*section 6*/
+/*/section 6*/
+/*section 9*/
+.section-9-wrap .item-slide-img {
+  width: 156px;
+  height: 156px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden; }
+
+/*/section 9*/
 /* /import develop files */
 /* import develop adaptation */
 /* /import develop adaptation */
