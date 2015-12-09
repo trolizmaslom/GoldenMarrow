@@ -1,7 +1,7 @@
 // about us block7
 
 .about-us-wrap{ background-image: url(../images/b7-bg.jpg); width: 100%;
-    .about-us-box{ padding-left: 80px; padding-right: 80px;
+    .about-us-box{ padding-left: 80px; padding-right: 80px;overflow: hidden;
         .about-title{width: 100%; text-transform: uppercase; font-family: 'Lato', sans-serif; font-size: 46px; font-weight: 400; color: white; text-align: center; padding-top: 42px;opacity: 0; transform:translate3d(0,-40%,0); transition:transform 300ms ease, opacity 400ms ease;
                 &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
          }
@@ -41,7 +41,7 @@
 
 // belive  block10
 .belive-wrap { width: 100%; background-color: white;
-    .belive-box{
+    .belive-box{ overflow: hidden;
         .belive-title{font-family: 'Lato', sans-serif; font-size: 46px; font-weight: 400; text-align: center; color: black; text-transform: uppercase; padding-top: 66px;opacity: 0; transform:translate3d(0,-40%,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
         }
@@ -68,7 +68,7 @@
 
 //  keys  block8
 .keys-wrap{ width: 100%;
-    .keys-box{
+    .keys-box{ overflow: hidden;
         .keys-title{font-family: 'Lato', sans-serif; font-size: 46px; font-weight: 400; text-align: center; color: black; text-transform: uppercase; padding-top: 42px;opacity: 0; transform:translate3d(0,-40%,0); transition:transform 300ms ease, opacity 400ms ease;
             &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
         }
@@ -122,11 +122,21 @@
 //  video  block3
 
 .video-wrapp{width: 100%; background-image: url(../images/b3-bg.jpg); background-repeat: no-repeat; background-position: center center;
-    .video-convert{ padding-top: 43px;
-        .video-title{font-family: 'Lato', sans-serif; font-size: 46px; font-weight: 400; text-align: center;text-transform: uppercase;}
-        .video-subtitle{font-family: 'Lato', sans-serif; font-size: 16px; font-weight: 400; text-align: center;}
-        .samo-so-boy{text-align: center; padding-top: 35px;}
-        .tipa-button{text-align: center; padding-top: 37px; padding-bottom: 41px;}
+    .video-convert{ padding-top: 42px;
+        .video-title{font-family: 'Lato', sans-serif; font-size: 46px; font-weight: 400; text-align: center;text-transform: uppercase;opacity: 0; transform:translate3d(0,-40%,0); transition:transform 300ms ease, opacity 400ms ease;
+            &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
+        }
+        .video-subtitle{font-family: 'Lato', sans-serif; font-size: 16px; font-weight: 400; text-align: center;opacity: 0; transform:translate3d(-20%,0,0); transition:transform 300ms ease, opacity 400ms ease;
+            &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
+        }
+        .samo-so-boy{text-align: center; padding-top: 35px; position: relative; width: 653px;  margin: 0 auto;opacity: 0; transition: opacity 400ms ease;
+            &.animated{opacity: 1;}
+            &:before, &:after {z-index: -1; position: absolute;content: "";bottom: 25px;left: 10px;width: 48%;top: 93%; background: rgba(0, 0, 0, 0.7); box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.7); transform: rotate(-5deg);}
+            &:after {transform: rotate(5deg);right: 10px;left: auto; }
+        }
+        .tipa-button{text-align: center; padding-top: 37px; padding-bottom: 41px;opacity: 0; transform:translate3d(0,40%,0); transition:transform 300ms ease, opacity 400ms ease;
+            &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
+        }
     }
 
 }
