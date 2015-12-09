@@ -108,6 +108,9 @@ table {
   left: -99999em;
   top: -99999em; }
 
+*, html {
+  -webkit-text-size-adjust: none; }
+
 /* /helping adds*/
 /* base styles*/
 *, html {
