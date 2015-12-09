@@ -1,4 +1,5 @@
-.section-4-wrap{color: #2c2c2c;
+/*section 4*/
+.section-4-wrap{color: #2c2c2c;overflow: hidden;
     .mbox{padding: 0;}
     .title{text-align: center;text-transform: uppercase;letter-spacing: 1px;padding-bottom: 33px;    padding-top: 44px;
         h5{font-size: 46px;}
@@ -41,17 +42,80 @@
     .section-4-left-item{float: left;width: 48%;position: relative;
         &:after{position: absolute;bottom: -55px;right: 0;content: '';background-color: #50d44a;height: 1px;width: 455px;}
         &:before{position: absolute;bottom: -65px;right: -9px;content: '';background-color: #50d44a;height: 1px;width: 464px;}
-        &.animate-delay{opacity: 0;transform: translateX(-100%);transition:opacity ease .3s,transform ease .4s;}
+        &.animate-delay{opacity: 0;transform: translateX(-100%);transition:opacity ease .4s,transform ease .5s;}
         &.animated{opacity: 1;transform: translateX(0);}
     }
     .section-4-right-item{float: left;width: 52%;
-        &.animate-delay{opacity: 0;transform: translateX(100%);transition:opacity ease .3s,transform ease .4s;}
+        &.animate-delay{opacity: 0;transform: translateX(100%);transition:opacity ease .4s,transform ease .5s;}
         &.animated{opacity: 1;transform: translateX(0);}
     }
     .section-4-text{float: right;font-size: 38px;
         p{}
         span{color: #f5c314;}
     }
-    .button-bottom{text-align: center;padding-top: 26px;padding-bottom: 73px;}
+    .button-bottom{text-align: center;padding-top: 26px;padding-bottom: 73px;
+        &.animate-delay{opacity: 0;transform: translateY(-30%);transition:opacity ease .4s .3s,transform ease .5s .3s;}
+        &.animated{opacity: 1;transform: translateY(0);}
+    }
     .button{display: inline-block;}
 }
+/*/section 4*/
+.section-6{color: #2c2c2c;
+    .section-6-wrap{background: url('../images/section-6-bg.jpg') center center no-repeat;background-size: cover;}
+    .title{text-align: center;text-transform: uppercase;letter-spacing: 1px;padding-bottom: 36px;    padding-top: 44px;
+        h5{font-size: 46px;}
+        p{font-size: 28px;margin-top: -3px;}
+        .animate-it{opacity: 0;transform: translateY(-30%);transition:opacity ease .3s,transform ease .4s;}
+        .animated{opacity: 1;transform: translateY(0);}
+    }
+    .item{
+        &.animate-delay{opacity: 0;transform: scale(0);transition:opacity ease .4s .3s,transform ease .5s .3s;}
+        &.animated{opacity: 1;transform: scale(1);}
+    }
+    .section-6-row{
+        .item{float: left;width: 33.33%;text-align: center;}
+        .item-1{
+            .item-wrap{margin-left: -155px;}
+        }
+        .item-3{transition-delay:1.5s;
+            .item-wrap{
+                 &:after{bottom: -79px;right: -106px;width: 231px}
+            }
+        }
+        .item-5{transition-delay:2.5s;
+            .item-text{padding-bottom: 30px;max-width: 214px;}
+            .item-wrap{margin-right: -189px;
+                &:after{display: none;}
+            }
+        }
+        &.row-2{padding-top: 139px;
+            .item{width: 50%;}
+            .item-text{padding-bottom: 0px;padding-top: 20px;}
+
+            .item-2{transition-delay:0.5s;
+                .item-wrap{padding-left: 81px;
+                    &:after{bottom: auto;top: -81px;transform: rotate(-45deg);}
+                }
+            }
+            .item-4{transition-delay:1.5s;
+                .item-wrap{
+                    &:after{bottom: auto;top: -77px;right: -49px;width: 178px;transform: rotate(-47deg);}
+                }
+            }
+        }
+    }
+
+    .item-wrap{display: inline-block;position: relative;
+        &:after{content: '';height: 9px;width: 203px;background: url('../images/bubles.png') left center repeat-x;bottom: -70px;right: -93px;position: absolute;transform: rotate(45deg);}
+    }
+    .item-text{font-size: 24px;padding-bottom: 60px;}
+    .item-count{font-size: 70px;color: #52d84b;position: relative;
+        &:after{height: 100px;width: 100px;position: absolute;top: -15px;left: 50%;transform: translateX(-50%);content: '';border-radius: 50%;border:2px solid #fcb815;}
+    }
+    .button-bottom{text-align: center;padding-top: 37px;padding-bottom: 53px;
+        &.animate-delay{opacity: 0;transform: translateY(-30%);transition:opacity ease .4s,transform ease .5s;transition-delay:2.5s;}
+        &.animated{opacity: 1;transform: translateY(0);}
+    }
+    .button{display: inline-block;}
+}
+/*section 6*/
