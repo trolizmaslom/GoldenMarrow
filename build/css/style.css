@@ -502,7 +502,8 @@ img {
   transition: background-color 300ms ease, color 300ms ease;
   -webkit-box-shadow: 0 3px 5px 0 rgba(72, 57, 3, 0.35);
   -moz-box-shadow: 0 3px 5px 0 rgba(72, 57, 3, 0.35);
-  box-shadow: 0 3px 5px 0 rgba(72, 57, 3, 0.35); }
+  box-shadow: 0 3px 5px 0 rgba(72, 57, 3, 0.35);
+  text-align: center; }
   .button:hover {
     background-color: #ffd036; }
   .button:active {
@@ -514,7 +515,7 @@ img {
 .section-1 {
   background-image: url(../images/section-1-bg.jpg);
   background-position: center top;
-  padding-top: 80px; }
+  padding: 80px 0 60px 0; }
 
 .section-1-top {
   text-align: center;
@@ -559,6 +560,53 @@ img {
   font-weight: 700;
   font-size: 22px;
   color: #fff; }
+
+.section-1-button {
+  margin-bottom: 40px; }
+
+.section-1-learn-more-wrap {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative; }
+
+.section-1-learn-more-arrow {
+  position: absolute;
+  width: 80px;
+  top: -webkit-calc(100% + 20px);
+  top: -moz-calc(100% + 20px);
+  top: calc(100% + 20px);
+  left: -webkit-calc(50% - 40px);
+  left: -moz-calc(50% - 40px);
+  left: calc(50% - 40px); }
+  .section-1-learn-more-arrow:before, .section-1-learn-more-arrow:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #fff;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%; }
+  .section-1-learn-more-arrow:before {
+    left: -webkit-calc(50% - 45px);
+    left: -moz-calc(50% - 45px);
+    left: calc(50% - 45px);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    transform: rotateZ(45deg); }
+  .section-1-learn-more-arrow:after {
+    left: -webkit-calc(50% - 14px);
+    left: -moz-calc(50% - 14px);
+    left: calc(50% - 14px);
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg); }
 
 /* /section-1 */
 /* /import develop files */
