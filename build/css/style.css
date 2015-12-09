@@ -515,13 +515,13 @@ img {
 .section-1 {
   background-image: url(../images/section-1-bg.jpg);
   background-position: center top;
-  padding: 80px 0 60px 0;
+  padding: 85px 0 52px 0;
   overflow: hidden; }
 
 .section-1-top {
   text-align: center;
   position: relative;
-  margin-bottom: 40px; }
+  margin-bottom: 48px; }
 
 .top-logo {
   display: inline-block;
@@ -545,7 +545,7 @@ img {
 
 .top-award {
   position: absolute;
-  top: 0;
+  top: -7px;
   left: 10px;
   opacity: 0;
   -webkit-transform: translate(-50%, 0);
@@ -592,7 +592,7 @@ img {
   color: transparent;
   font-size: 39px;
   text-transform: uppercase;
-  padding: 10px 10px 5px 10px;
+  padding: 15px 10px 6px 10px;
   -webkit-transition: color 300ms ease 400ms;
   -moz-transition: color 300ms ease 400ms;
   -o-transition: color 300ms ease 400ms;
@@ -614,14 +614,14 @@ img {
   display: inline-block;
   max-width: 610px;
   width: 100%;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px 15px 15px;
   border: 1px solid #f5c314;
   font-weight: 700;
   font-size: 22px;
   color: #fff; }
 
 .section-1-button {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   opacity: 0;
   -webkit-transform: translate(0, 50%);
   -moz-transform: translate(0, 50%);
@@ -694,9 +694,9 @@ img {
 .section-1-learn-more-arrow {
   position: absolute;
   width: 80px;
-  top: -webkit-calc(100% + 20px);
-  top: -moz-calc(100% + 20px);
-  top: calc(100% + 20px);
+  top: -webkit-calc(100% + 15px);
+  top: -moz-calc(100% + 15px);
+  top: calc(100% + 15px);
   left: -webkit-calc(50% - 40px);
   left: -moz-calc(50% - 40px);
   left: calc(50% - 40px);
@@ -734,9 +734,9 @@ img {
     -o-transition: background-color 300ms ease;
     transition: background-color 300ms ease; }
   .section-1-learn-more-arrow:before {
-    left: -webkit-calc(50% - 42px);
-    left: -moz-calc(50% - 42px);
-    left: calc(50% - 42px);
+    left: -webkit-calc(50% - 43px);
+    left: -moz-calc(50% - 43px);
+    left: calc(50% - 43px);
     -webkit-transform: rotateZ(30deg);
     -moz-transform: rotateZ(30deg);
     transform: rotateZ(30deg); }
