@@ -33,7 +33,7 @@ function goTo(){
     $('.nav-bar a').click(function(e){
         e.preventDefault();
         var href = $(this).attr('href');
-        var target = $(href).offset().top-55;
+        var target = $(href).offset().top-56;
         $(scroller).animate({scrollTop:target},500);
     });
 
