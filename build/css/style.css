@@ -2335,7 +2335,7 @@ img {
     background-image: url(../images/arrow.png);
     height: 36px;
     width: 16px;
-    left: -45px; }
+    left: -30px; }
     .section-9-wrap .slick-prev:before {
       position: absolute;
       top: 28px;
@@ -2390,7 +2390,7 @@ img {
     background-image: url(../images/arrow.png);
     height: 36px;
     width: 16px;
-    right: -45px; }
+    right: -30px; }
     .section-9-wrap .slick-next:before {
       position: absolute;
       top: 28px;
