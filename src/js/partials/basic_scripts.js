@@ -59,7 +59,7 @@ function animationBlock(item){
 
     function checkForAnimate(){
         var bottomCheck = $(window).height()+$(window).scrollTop();
-        var windowTop = $(window).scrollTop()+($(window).height()/1.5);
+        var windowTop = $(window).scrollTop()+($(window).height());
         item.each(function(){
            if(windowTop>$(this).offset().top || bottomCheck > $('body').height()*0.98){
 
