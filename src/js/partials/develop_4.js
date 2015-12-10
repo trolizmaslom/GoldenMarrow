@@ -1,5 +1,29 @@
-$(document).ready(function(){
+function sectionSlider(){
+     setTimeout(function(){
+            $('.item-slide:not(.slick-center) .item-slide-hidden').css('display','none');
+        },300);
 
+    $('.section-9-slider').on('beforeChange', function(){
+        $('.item-slide-hidden').fadeOut(100);
+    });
+    $('.section-9-slider').on('afterChange', function(){
+        $('.item-slide.slick-center').find('.item-slide-hidden').fadeIn(100);
+    });
+    $('.section-9-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        adaptiveHeight: true,
+        draggable:false,
+        centerPadding:'30px'
+    });
+
+
+
+}
+
+$(document).ready(function(){
+    sectionSlider();
 });
 
 $(window).load(function(){
