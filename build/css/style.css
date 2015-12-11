@@ -2214,7 +2214,8 @@ img {
   .section-6 .item-count {
     font-size: 70px;
     color: #52d84b;
-    position: relative; }
+    position: relative;
+    line-height: 86px; }
     .section-6 .item-count:after {
       height: 100px;
       width: 100px;

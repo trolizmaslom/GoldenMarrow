@@ -111,7 +111,7 @@
         &:after{content: '';height: 9px;width: 203px;background: url('../images/bubles.png') left center repeat-x;bottom: -70px;right: -93px;position: absolute;transform: rotate(45deg);}
     }
     .item-text{font-size: 24px;padding-bottom: 60px;}
-    .item-count{font-size: 70px;color: #52d84b;position: relative;
+    .item-count{font-size: 70px;color: #52d84b;position: relative; line-height: 86px;
         &:after{height: 100px;width: 100px;position: absolute;top: -15px;left: 50%;transform: translateX(-50%);content: '';border-radius: 50%;border:2px solid #fcb815;}
     }
     .button-bottom{text-align: center;padding-top: 37px;padding-bottom: 53px;
