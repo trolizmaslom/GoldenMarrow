@@ -2740,27 +2740,33 @@ img {
         -moz-border-radius: 5px;
         border-radius: 5px;
         border: 1px solid #000;
-        padding-left: 40px; }
+        padding-left: 40px;
+        font-size: 16px;
+        line-height: 18px; }
         #call-popup .contact-form-row .contact-form-item input::-webkit-input-placeholder, #call-popup2 .contact-form-row .contact-form-item input::-webkit-input-placeholder {
           color: #2c2c2c;
           font-family: 'Lato';
           font-weight: 600;
-          font-size: 16px; }
+          font-size: 16px;
+          line-height: 18px; }
         #call-popup .contact-form-row .contact-form-item input:-moz-placeholder, #call-popup2 .contact-form-row .contact-form-item input:-moz-placeholder {
           color: #2c2c2c;
           font-family: 'Lato';
           font-weight: 600;
-          font-size: 16px; }
+          font-size: 16px;
+          line-height: 18px; }
         #call-popup .contact-form-row .contact-form-item input::-moz-placeholder, #call-popup2 .contact-form-row .contact-form-item input::-moz-placeholder {
           color: #2c2c2c;
           font-family: 'Lato';
           font-weight: 600;
-          font-size: 16px; }
+          font-size: 16px;
+          line-height: 18px; }
         #call-popup .contact-form-row .contact-form-item input:-ms-input-placeholder, #call-popup2 .contact-form-row .contact-form-item input:-ms-input-placeholder {
           color: #2c2c2c;
           font-family: 'Lato';
           font-weight: 600;
-          font-size: 16px; }
+          font-size: 16px;
+          line-height: 18px; }
         #call-popup .contact-form-row .contact-form-item input.error, #call-popup2 .contact-form-row .contact-form-item input.error {
           border-color: red; }
       #call-popup .contact-form-row .contact-form-item .errorText, #call-popup2 .contact-form-row .contact-form-item .errorText {
@@ -2815,6 +2821,10 @@ img {
   float: none; }
 
 /*END popups*/
+@media screen and (max-width: 1024px) {
+  .fancybox-close {
+    top: -40px;
+    right: -37px; } }
 /* /import develop files */
 /* import develop adaptation */
 /* /import develop adaptation */

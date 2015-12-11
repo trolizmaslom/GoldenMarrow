@@ -36,11 +36,11 @@
         }
         .contact-form-row{ width:100%; padding-bottom: 20px;
             .contact-form-item{float:left; position: relative;
-                input{width:320px; height: 50px; border-radius: 5px; border: 1px solid #000;    padding-left: 40px;
-                    &::-webkit-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
-                    &:-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
-                    &::-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
-                    &:-ms-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;}
+                input{width:320px; height: 50px; border-radius: 5px; border: 1px solid #000;    padding-left: 40px; font-size: 16px; line-height: 18px;
+                    &::-webkit-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;line-height: 18px;}
+                    &:-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;line-height: 18px;}
+                    &::-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;line-height: 18px;}
+                    &:-ms-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 16px;line-height: 18px;}
                     &.error{border-color: red;}
                 }
                 .errorText{position: absolute; top: -16px;    left: 8px; color:red; font-family: 'Lato'; font-weight: 600; font-size: 10px;}
@@ -68,3 +68,7 @@
     }
 
 /*END popups*/
+
+@media screen and (max-width: 1024px){
+    .fancybox-close {top: -40px; right: -37px;}
+}
