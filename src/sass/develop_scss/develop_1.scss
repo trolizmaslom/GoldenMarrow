@@ -86,6 +86,7 @@
 }
 .top-award{position: absolute;top:-7px;left:10px;opacity: 0;transform:translate(-50%, 0);transition:opacity 400ms ease 100ms, trnasform 200ms ease 100ms;
     &.animated{opacity: 1;transform:translate(0,0);}
+    span{font-size: 12px;text-transform: uppercase;text-align: center;color: #fec803;line-height: 1.5;position: absolute;top: 14px;left: 14px;}
 }
 .section-1-main{text-align: center;}
 .section-1-title{margin-bottom: 40px;transform:rotateY(-90deg);transition:transform 600ms ease 300ms;
