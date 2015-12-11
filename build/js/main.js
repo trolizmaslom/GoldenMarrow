@@ -2556,7 +2556,7 @@ function validationCall2(form){
 
         timer = setTimeout(function(){
             $('form').trigger("reset");
-            $.fancybox.close("#call_success");
+            /*$.fancybox.close("#call_success");*/
         },2000);
     }
 }
@@ -2688,7 +2688,6 @@ function telMask(){
 $(document).ready(function(){
     telMask();
      $('.fancybox').fancybox({
-            width:false,
             padding:0
      });
     validate('.contact-form', {submitFunction:validationCall});

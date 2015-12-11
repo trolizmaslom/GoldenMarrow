@@ -169,7 +169,7 @@ function validationCall2(form){
 
         timer = setTimeout(function(){
             $('form').trigger("reset");
-            $.fancybox.close("#call_success");
+            /*$.fancybox.close("#call_success");*/
         },2000);
     }
 }

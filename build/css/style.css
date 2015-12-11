@@ -2635,7 +2635,9 @@ img {
     display: inline-block;
     vertical-align: top;
     text-transform: none;
-    padding-top: 3px; }
+    padding-top: 3px;
+    text-decoration: none;
+    color: #2c2c2c; }
   .call_success2 .call-icons .vk {
     margin-left: 30px; }
 
