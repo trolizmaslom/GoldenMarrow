@@ -4,7 +4,6 @@ function telMask(){
 $(document).ready(function(){
     telMask();
      $('.fancybox').fancybox({
-            width:false,
             padding:0
      });
     validate('.contact-form', {submitFunction:validationCall});

@@ -2556,7 +2556,7 @@ function validationCall2(form){
 
         timer = setTimeout(function(){
             $('form').trigger("reset");
-            $.fancybox.close("#call_success");
+            /*$.fancybox.close("#call_success");*/
         },2000);
     }
 }
@@ -2596,7 +2596,7 @@ function headerScroll(){
 
 function goTo(){
 
-    $('.nav-bar a').click(function(e){
+    $('.nav-bar nav a').click(function(e){
         e.preventDefault();
         var href = $(this).attr('href');
         var target = $(href).offset().top-56;
@@ -2688,7 +2688,6 @@ function telMask(){
 $(document).ready(function(){
     telMask();
      $('.fancybox').fancybox({
-            width:false,
             padding:0
      });
     validate('.contact-form', {submitFunction:validationCall});

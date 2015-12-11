@@ -81,7 +81,7 @@
         }
         .item-3{transition-delay:0.4s;
             .item-wrap{
-                 &:after{bottom: -79px;right: -106px;width: 231px}
+                 &:after{bottom: -92px; right: -106px;width: 231px}
             }
         }
         .item-5{transition-delay:0.4s;
@@ -90,7 +90,7 @@
                 &:after{display: none;}
             }
         }
-        &.row-2{padding-top: 139px;
+        &.row-2{padding-top: 154px;
             .item{width: 50%;}
             .item-text{padding-bottom: 0px;padding-top: 20px;}
 
@@ -108,10 +108,10 @@
     }
 
     .item-wrap{display: inline-block;position: relative;
-        &:after{content: '';height: 9px;width: 203px;background: url('../images/bubles.png') left center repeat-x;bottom: -70px;right: -93px;position: absolute;transform: rotate(45deg);}
+        &:after{content: '';height: 9px;width: 203px;background: url('../images/bubles.png') left center repeat-x;bottom: -84px;right: -93px;position: absolute;transform: rotate(45deg);}
     }
-    .item-text{font-size: 24px;padding-bottom: 60px;}
-    .item-count{font-size: 70px;color: #52d84b;position: relative;
+    .item-text{font-size: 24px;padding-bottom: 60px;     line-height: 30px;}
+    .item-count{font-size: 70px;color: #52d84b;position: relative; line-height: 70px;
         &:after{height: 100px;width: 100px;position: absolute;top: -15px;left: 50%;transform: translateX(-50%);content: '';border-radius: 50%;border:2px solid #fcb815;}
     }
     .button-bottom{text-align: center;padding-top: 37px;padding-bottom: 53px;
