@@ -2596,7 +2596,7 @@ function headerScroll(){
 
 function goTo(){
 
-    $('.nav-bar a').click(function(e){
+    $('.nav-bar nav a').click(function(e){
         e.preventDefault();
         var href = $(this).attr('href');
         var target = $(href).offset().top-56;
