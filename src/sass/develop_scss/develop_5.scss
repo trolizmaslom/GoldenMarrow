@@ -30,7 +30,7 @@
         }
     }
 
-    #call-popup, #call-popup2{font-family: 'Lato'; font-weight: 600; font-size: 22px; color:#2c2c2c; text-align: center; border-radius: 5px; border:2px solid #50d249;  max-width: 785px; padding: 43px 60px 20px 48px; text-transform: uppercase;
+    #call-popup, #call-popup2, #call-popup3{font-family: 'Lato'; font-weight: 600; font-size: 22px; color:#2c2c2c; text-align: center; border-radius: 5px; border:2px solid #50d249;  max-width: 785px; padding: 43px 60px 20px 48px; text-transform: uppercase;
         .contact-form-title{position: relative;     padding-bottom: 85px;
             &:before{content:'';display: block;position: absolute; width: 113px; height: 9px; border-top:1px solid #f5c314;border-bottom:1px solid #f5c314; bottom: 40px; left:calc(50% - 52px);}
         }
@@ -65,6 +65,38 @@
         .contact-form-row{
             .contact-form-item{float:none;}
         }
+    }
+    #call-popup3{position: fixed;background-color: #fff; width:278px;padding: 26px 22px 4px 22px; z-index: 100; top:20%; opacity: 0; left:-100%; transition: all 500ms;
+        &.activator{opacity: 1;left:0; transition: all 500ms;}
+        .popup-wrapp{position: relative;}
+        p{font-family: 'Lato'; font-weight: 600; font-size: 16px; line-height: 19px; text-align: left; color:#2c2c2c; text-transform: none;}
+        .contact-form-title{position: relative;     padding-bottom: 48px;
+            &:before{content:'';display: block;position: absolute; width: 94px; height: 4px; border-top:1px solid #f5c314;border-bottom:1px solid #f5c314; bottom: 29px; left:calc(50% - 47px);}
+        }
+        h5{font-weight: 400; font-size: 18px;}
+        .popup-close {position: absolute; background-color: #50d249; border-radius: 50%; width:22px; height: 22px;top: -39px; right: -35px; cursor: pointer;
+            &:before{content: ''; display: block;position: absolute; width:18px; height: 2px; background-color: #fff; top:10px; left:2px; transform:rotate(45deg); transition:all 500ms; }
+            &:after{content: ''; display: block;position: absolute; width:18px; height: 2px; background-color: #fff; top:10px; left:2px; transform:rotate(-45deg); transition:all 500ms; }
+            &:hover{
+                &:before{transform:rotate(405deg); }
+                &:after{transform:rotate(315deg); }
+            }
+        }
+        .contact-form-row{
+            .contact-form-item{float:none;
+                input{width:228px; border-radius: 3px; height:37px;padding-left: 20px;
+                    &::-webkit-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 14px;line-height: 16px;}
+                    &:-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 14px;line-height: 16px;}
+                    &::-moz-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 14px;line-height: 16px;}
+                    &:-ms-input-placeholder {color:#2c2c2c; font-family: 'Lato'; font-weight: 600; font-size: 14px;line-height: 16px;}
+                }
+                .errorText{ top: -10px;}
+                .contact-submit{width: 228px;}
+            }
+            &:nth-child(2){padding-bottom: 10px;}
+            &:nth-child(3){padding-bottom: 41px;}
+        }
+
     }
 
 /*END popups*/

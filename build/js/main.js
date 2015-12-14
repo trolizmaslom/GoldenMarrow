@@ -2560,6 +2560,30 @@ function validationCall2(form){
         },2000);
     }
 }
+
+function validationCall3(form){
+
+  var thisForm = $(form);
+  var formSur = thisForm.serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim() == 'true') {
+                thisForm.trigger("reset");
+                activPop3();
+            }
+            else {
+               thisForm.trigger('reset');
+            }
+
+        }
+    });
+
+
+}
 $(document).ready(function() {
 
 });
@@ -2686,13 +2710,19 @@ $(window).resize(function(){
 function telMask(){
     $('.tel-mask').mask('+9 (999) 999-99-99 ');
 }
+function activPop3(){
+    $('#call-popup3').toggleClass('activator');
+}
 $(document).ready(function(){
     telMask();
      $('.fancybox').fancybox({
             padding:0
      });
+     setTimeout(function(){activPop3();}, 5000);
+     $('.popup-close').click(function(event) { activPop3(); });
     validate('.contact-form', {submitFunction:validationCall});
     validate('.contact-form2', {submitFunction:validationCall2});
+    validate('.contact-form3', {submitFunction:validationCall3});
 });
 
 $(window).load(function(){
