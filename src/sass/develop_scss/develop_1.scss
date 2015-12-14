@@ -80,9 +80,9 @@
 /* section-1 */
 
 .section-1{background-image:url(../images/section-1-bg.jpg);background-position: center top;padding: 85px 0 52px 0;overflow: hidden;}
-.section-1-top{text-align: center;position: relative;margin-bottom: 48px;}
+.section-1-top{text-align: center;position: relative;}
 .top-logo{display: inline-block;opacity: 0;transform:translate(0, 50%);transition:opacity 400ms ease, trnasform 200ms ease;
-    &.animated{opacity: 1;transform:translate(0,0);}
+    &.animated{opacity: 1;transform:translate(0,-10px);}
 }
 .top-award{position: absolute;top:-7px;left:10px;opacity: 0;transform:translate(-50%, 0);transition:opacity 400ms ease 100ms, trnasform 200ms ease 100ms;
     &.animated{opacity: 1;transform:translate(0,0);}

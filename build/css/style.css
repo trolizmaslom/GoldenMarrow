@@ -739,8 +739,7 @@ img {
 
 .section-1-top {
   text-align: center;
-  position: relative;
-  margin-bottom: 48px; }
+  position: relative; }
 
 .top-logo {
   display: inline-block;
@@ -756,11 +755,11 @@ img {
   transition: opacity 400ms ease, trnasform 200ms ease; }
   .top-logo.animated {
     opacity: 1;
-    -webkit-transform: translate(0, 0);
-    -moz-transform: translate(0, 0);
-    -ms-transform: translate(0, 0);
-    -o-transform: translate(0, 0);
-    transform: translate(0, 0); }
+    -webkit-transform: translate(0, -10px);
+    -moz-transform: translate(0, -10px);
+    -ms-transform: translate(0, -10px);
+    -o-transform: translate(0, -10px);
+    transform: translate(0, -10px); }
 
 .top-award {
   position: absolute;
@@ -2661,8 +2660,8 @@ img {
   border-radius: 50%;
   width: 36px;
   height: 36px;
-  top: -60px;
-  right: -57px; }
+  top: -36px;
+  right: -36px; }
   .fancybox-close:before {
     content: '';
     display: block;

@@ -21,7 +21,7 @@
         }
 
     }
-    .fancybox-close {background-image: none; background-color: #50d249; border-radius: 50%; width:36px; height: 36px;top: -60px; right: -57px;
+    .fancybox-close {background-image: none; background-color: #50d249; border-radius: 50%; width:36px; height: 36px;top: -36px; right: -36px;
         &:before{content: ''; display: block;position: absolute; width:27px; height: 1px; background-color: #fff; top:17px; left:5px; transform:rotate(45deg); transition:all 500ms; }
         &:after{content: ''; display: block;position: absolute; width:27px; height: 1px; background-color: #fff; top:17px; left:5px; transform:rotate(-45deg); transition:all 500ms; }
         &:hover{
