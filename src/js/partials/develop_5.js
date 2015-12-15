@@ -9,7 +9,7 @@ $(document).ready(function(){
      $('.fancybox').fancybox({
             padding:0
      });
-     setTimeout(function(){activPop3();}, 5000);
+     setTimeout(function(){activPop3();}, 20000);
      $('.popup-close').click(function(event) { activPop3(); });
     validate('.contact-form', {submitFunction:validationCall});
     validate('.contact-form2', {submitFunction:validationCall2});
